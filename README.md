@@ -1,21 +1,15 @@
-import random
+01. Lucky Number Game 🎯
+A simple number guessing game built using Python.
 
-def play_game():
-    lucky_num=random.randint(1,50)
-    while True:
-        user_num=int(input("Guess a number between 1 and 50: "))
-        if user_num==lucky_num:
-            print("Congratulations! You guessed the lucky number!")
-            break
-        elif user_num<lucky_num:
-            print("Too low! Try again.")
-        else:
-            print("too high! Try again.")
-    print("thank you!!")
+Concepts practiced:
 
-print("Welcome to the Lucky Number Game!")
-print("are you ready to play? (yes/no)")
-if input().lower() == "yes":
-    play_game() 
-else:
-    print("Maybe next time! Goodbye.")
+Functions
+random module
+random.randint()
+User input
+Type conversion
+if-elif-else
+while loop
+break
+
+More mini projects will be added as I continue learning Python.
